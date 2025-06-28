@@ -1,6 +1,19 @@
-# Multi-Agentic Prompt-to-Video Generation Pipeline
+# Multi-Agentic Prompt-to-Content(Audio+Video)Generation Pipeline
 
-![Pipeline Overview](image1)
+How Our Solution Automates Content Generation for Kuku FM
+Our multi-agentic pipeline provides a comprehensive, fully automated content generation system tailored for Kuku FM’s needs:
+
+End-to-End Workflow: The entire journey from prompt or idea to final audio-visual output is automated, requiring minimal human intervention. This matches Kuku FM’s vision of scaling content production using generative AI.
+Multi-Agent Collaboration: By leveraging specialized GPT-4 agents for ideation, writing, editing, and fact-checking, the system ensures each piece of content is creative, coherent, and accurate.
+Emotionally-Rich Narration: Automated emotion tagging with BERT and expressive voice synthesis using Kokoro-82M bring human-like emotion and engagement to each story, elevating listener experience.
+Personalized Audio Editing: Background music, silence removal, and fade effects are dynamically applied based on detected emotions, ensuring polished and immersive audio quality.
+Rapid Turnaround & Scale: The pipeline can operate 24/7, generating hundreds or thousands of scripts and corresponding audio episodes daily, thus supporting Kuku FM’s goal of scalable, personalized content creation.
+Seamless Visual Integration: Thumbnails and synchronized visuals are generated automatically, enabling rapid production of engaging audio-visual content for social media and in-app promotion.
+Reduced Costs & Faster Time-to-Market: By automating routine content creation tasks, Kuku FM can significantly reduce reliance on large creative teams while maintaining high content quality and variety.
+Together, these features make our solution a perfect fit for Kuku FM’s mission to use generative AI for scalable, high-quality, and engaging audio content that attracts and retains listeners at scale.
+![WhatsApp Image 2025-04-08 at 3 44 09 PM (2)](https://github.com/user-attachments/assets/cea709c7-cd75-4e41-86f7-a7ed76f2de21)
+
+
 
 This project implements an end-to-end system for transforming textual prompts into audio-synchronized videos with expressive speech, stylized visuals, and precise narration alignment. The architecture leverages multi-agent LLMs, deep learning-based speech and emotion models, and advanced audio-visual processing. Below, we map every pipeline block (see diagram above) to the codebase and describe the technical components.
 
